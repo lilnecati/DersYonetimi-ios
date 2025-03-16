@@ -1,6 +1,4 @@
 #!/bin/bash
-
-
 cd "$(dirname "$0")"
 
 while true; do
@@ -19,6 +17,5 @@ while true; do
         echo "$(date '+%Y-%m-%d %H:%M:%S') - Değişiklik yok, bekleniyor..."
     fi
     
-
     sleep 60
 done 

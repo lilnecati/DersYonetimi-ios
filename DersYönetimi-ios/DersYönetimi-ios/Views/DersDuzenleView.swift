@@ -122,3 +122,7 @@ extension Double {
     )
     .environmentObject(StudentManager())
 } 
+
+
+
+// deneme

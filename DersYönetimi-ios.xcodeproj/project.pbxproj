@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A4460A8B2D8627F900E8BF85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4460A722D8627F800E8BF85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4460A792D8627F800E8BF85;
+			remoteInfo = "DersYönetimi-ios";
+		};
+		A4460A952D8627F900E8BF85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4460A722D8627F800E8BF85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4460A792D8627F800E8BF85;
+			remoteInfo = "DersYönetimi-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4460A7A2D8627F800E8BF85 /* DersYönetimi-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DersYönetimi-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4460A8A2D8627F900E8BF85 /* DersYönetimi-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DersYönetimi-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4460A942D8627F900E8BF85 /* DersYönetimi-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DersYönetimi-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A4460A7C2D8627F800E8BF85 /* DersYönetimi-ios */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DersYönetimi-ios";
+			sourceTree = "<group>";
+		};
+		A4460A8D2D8627F900E8BF85 /* DersYönetimi-iosTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DersYönetimi-iosTests";
+			sourceTree = "<group>";
+		};
+		A4460A972D8627F900E8BF85 /* DersYönetimi-iosUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DersYönetimi-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4460A772D8627F800E8BF85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4460A872D8627F900E8BF85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4460A912D8627F900E8BF85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4460A712D8627F800E8BF85 = {
+			isa = PBXGroup;
+			children = (
+				A4460A7C2D8627F800E8BF85 /* DersYönetimi-ios */,
+				A4460A8D2D8627F900E8BF85 /* DersYönetimi-iosTests */,
+				A4460A972D8627F900E8BF85 /* DersYönetimi-iosUITests */,
+				A4460A7B2D8627F800E8BF85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4460A7B2D8627F800E8BF85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4460A7A2D8627F800E8BF85 /* DersYönetimi-ios.app */,
+				A4460A8A2D8627F900E8BF85 /* DersYönetimi-iosTests.xctest */,
+				A4460A942D8627F900E8BF85 /* DersYönetimi-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4460A792D8627F800E8BF85 /* DersYönetimi-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4460A9E2D8627F900E8BF85 /* Build configuration list for PBXNativeTarget "DersYönetimi-ios" */;
+			buildPhases = (
+				A4460A762D8627F800E8BF85 /* Sources */,
+				A4460A772D8627F800E8BF85 /* Frameworks */,
+				A4460A782D8627F800E8BF85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A4460A7C2D8627F800E8BF85 /* DersYönetimi-ios */,
+			);
+			name = "DersYönetimi-ios";
+			packageProductDependencies = (
+			);
+			productName = "DersYönetimi-ios";
+			productReference = A4460A7A2D8627F800E8BF85 /* DersYönetimi-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4460A892D8627F900E8BF85 /* DersYönetimi-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4460AA12D8627F900E8BF85 /* Build configuration list for PBXNativeTarget "DersYönetimi-iosTests" */;
+			buildPhases = (
+				A4460A862D8627F900E8BF85 /* Sources */,
+				A4460A872D8627F900E8BF85 /* Frameworks */,
+				A4460A882D8627F900E8BF85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4460A8C2D8627F900E8BF85 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A4460A8D2D8627F900E8BF85 /* DersYönetimi-iosTests */,
+			);
+			name = "DersYönetimi-iosTests";
+			packageProductDependencies = (
+			);
+			productName = "DersYönetimi-iosTests";
+			productReference = A4460A8A2D8627F900E8BF85 /* DersYönetimi-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4460A932D8627F900E8BF85 /* DersYönetimi-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4460AA42D8627F900E8BF85 /* Build configuration list for PBXNativeTarget "DersYönetimi-iosUITests" */;
+			buildPhases = (
+				A4460A902D8627F900E8BF85 /* Sources */,
+				A4460A912D8627F900E8BF85 /* Frameworks */,
+				A4460A922D8627F900E8BF85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4460A962D8627F900E8BF85 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A4460A972D8627F900E8BF85 /* DersYönetimi-iosUITests */,
+			);
+			name = "DersYönetimi-iosUITests";
+			packageProductDependencies = (
+			);
+			productName = "DersYönetimi-iosUITests";
+			productReference = A4460A942D8627F900E8BF85 /* DersYönetimi-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4460A722D8627F800E8BF85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A4460A792D8627F800E8BF85 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A4460A892D8627F900E8BF85 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A4460A792D8627F800E8BF85;
+					};
+					A4460A932D8627F900E8BF85 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A4460A792D8627F800E8BF85;
+					};
+				};
+			};
+			buildConfigurationList = A4460A752D8627F800E8BF85 /* Build configuration list for PBXProject "DersYönetimi-ios" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4460A712D8627F800E8BF85;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A4460A7B2D8627F800E8BF85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4460A792D8627F800E8BF85 /* DersYönetimi-ios */,
+				A4460A892D8627F900E8BF85 /* DersYönetimi-iosTests */,
+				A4460A932D8627F900E8BF85 /* DersYönetimi-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4460A782D8627F800E8BF85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4460A882D8627F900E8BF85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4460A922D8627F900E8BF85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4460A762D8627F800E8BF85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4460A862D8627F900E8BF85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4460A902D8627F900E8BF85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4460A8C2D8627F900E8BF85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4460A792D8627F800E8BF85 /* DersYönetimi-ios */;
+			targetProxy = A4460A8B2D8627F900E8BF85 /* PBXContainerItemProxy */;
+		};
+		A4460A962D8627F900E8BF85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4460A792D8627F800E8BF85 /* DersYönetimi-ios */;
+			targetProxy = A4460A952D8627F900E8BF85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A4460A9C2D8627F900E8BF85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4460A9D2D8627F900E8BF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4460A9F2D8627F900E8BF85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DersYönetimi-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = KX8WZPADF5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "o-dev.DersYo-netimi-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4460AA02D8627F900E8BF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DersYönetimi-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = KX8WZPADF5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "o-dev.DersYo-netimi-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4460AA22D8627F900E8BF85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KX8WZPADF5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "o-dev.DersYo-netimi-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DersYönetimi-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DersYönetimi-ios";
+			};
+			name = Debug;
+		};
+		A4460AA32D8627F900E8BF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KX8WZPADF5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "o-dev.DersYo-netimi-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DersYönetimi-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DersYönetimi-ios";
+			};
+			name = Release;
+		};
+		A4460AA52D8627F900E8BF85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KX8WZPADF5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "o-dev.DersYo-netimi-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DersYönetimi-ios";
+			};
+			name = Debug;
+		};
+		A4460AA62D8627F900E8BF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KX8WZPADF5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "o-dev.DersYo-netimi-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DersYönetimi-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4460A752D8627F800E8BF85 /* Build configuration list for PBXProject "DersYönetimi-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4460A9C2D8627F900E8BF85 /* Debug */,
+				A4460A9D2D8627F900E8BF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4460A9E2D8627F900E8BF85 /* Build configuration list for PBXNativeTarget "DersYönetimi-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4460A9F2D8627F900E8BF85 /* Debug */,
+				A4460AA02D8627F900E8BF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4460AA12D8627F900E8BF85 /* Build configuration list for PBXNativeTarget "DersYönetimi-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4460AA22D8627F900E8BF85 /* Debug */,
+				A4460AA32D8627F900E8BF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4460AA42D8627F900E8BF85 /* Build configuration list for PBXNativeTarget "DersYönetimi-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4460AA52D8627F900E8BF85 /* Debug */,
+				A4460AA62D8627F900E8BF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4460A722D8627F800E8BF85 /* Project object */;
+}

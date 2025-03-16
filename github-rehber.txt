@@ -1,0 +1,151 @@
+# YENİ PROJE OLUŞTURMA VE GİTHUB'A YÜKLEME REHBERİ
+
+# --------- BAŞLANGIÇ KURULUMU ---------
+
+# 1. Yeni proje klasörü oluştur ve içine gir
+mkdir -p ~/Desktop/YeniProje
+cd ~/Desktop/YeniProje
+
+# 2. GitHub'da yeni repo oluştur (interaktif mod)
+gh repo create
+# - Repository name: projenizin adı
+# - Description: proje açıklaması
+# - Public/Private seçin
+# - Clone locally: Yes seçin
+
+# 3. Git'i başlat ve ilk commit'i yap
+git init
+git add .
+git commit -m "İlk commit"
+git push
+
+# --------- OTOMATİK COMMİT KURULUMU ---------
+
+# 4. Otomatik commit scriptini kopyala
+cp /Users/necati/Desktop/DersYönetimi-ios/auto-commit.sh .
+chmod +x auto-commit.sh
+
+# auto-commit.sh içeriği:
+#!/bin/bash
+# Script her çalıştığında geçerli dizine git
+cd "$(dirname "$0")"
+
+# Sonsuz döngü - script sürekli çalışacak
+while true; do
+    # Değişiklikleri kontrol et
+    if [[ $(git status --porcelain) ]]; then
+        echo "$(date '+%Y-%m-%d %H:%M:%S') - Değişiklikler bulundu, GitHub'a yükleniyor..."
+        git add .
+        git commit -m "Otomatik commit: $(date '+%Y-%m-%d %H:%M:%S')"
+        git push
+        echo "$(date '+%Y-%m-%d %H:%M:%S') - Değişiklikler GitHub'a yüklendi!"
+    else
+        echo "$(date '+%Y-%m-%d %H:%M:%S') - Değişiklik yok, bekleniyor..."
+    fi
+    sleep 300  # 5 dakika bekle
+done
+
+# 5. Scripti başlat
+./auto-commit.sh &
+
+# --------- SCRİPT AYARLARI ---------
+
+# Kontrol süresini değiştirmek için:
+# sleep 300 satırındaki 300 sayısını değiştirin
+# - 60 = 1 dakika
+# - 180 = 3 dakika
+# - 300 = 5 dakika
+# - 600 = 10 dakika
+
+# Commit mesajını değiştirmek için:
+# git commit -m "Otomatik commit: $(date '+%Y-%m-%d %H:%M:%S')" satırını değiştirin
+# Örnek: git commit -m "Güncelleme: $(date '+%Y-%m-%d %H:%M:%S')"
+
+# Tarih formatını değiştirmek için:
+# date '+%Y-%m-%d %H:%M:%S' formatını değiştirin
+# Örnek: date '+%d.%m.%Y %H:%M' -> 16.03.2024 14:30
+
+# --------- YARARLI KOMUTLAR ---------
+
+# GitHub durumunu kontrol et
+gh auth status
+
+# Git durumunu kontrol et
+git status
+
+# Değişiklikleri kontrol et
+git diff
+
+# Manuel commit yapmak için
+git add .
+git commit -m "Değişiklik mesajı"
+git push
+
+# Otomatik commit scriptini durdurmak için
+pkill -f auto-commit.sh
+
+# Otomatik commit loglarını görüntüle
+cat auto-commit.log
+
+# Script'i yeniden başlat
+./auto-commit.sh &
+
+# --------- BİLGİSAYAR AÇILIŞINDA OTOMATİK BAŞLATMA ---------
+
+# 1. Launch Agent dosyası oluştur
+# com.projeadi.autocommit.plist içeriği:
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.projeadi.autocommit</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/KULLANICIADI/Desktop/YeniProje/auto-commit.sh</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardErrorPath</key>
+    <string>/Users/KULLANICIADI/Desktop/YeniProje/auto-commit.log</string>
+    <key>StandardOutPath</key>
+    <string>/Users/KULLANICIADI/Desktop/YeniProje/auto-commit.log</string>
+</dict>
+</plist>
+
+# 2. Launch Agent'ı yükle
+mkdir -p ~/Library/LaunchAgents
+cp com.projeadi.autocommit.plist ~/Library/LaunchAgents/
+launchctl load ~/Library/LaunchAgents/com.projeadi.autocommit.plist
+
+# --------- NOTLAR ---------
+
+# - Script her 5 dakikada bir değişiklikleri kontrol eder
+# - Değişiklik varsa otomatik olarak GitHub'a yükler
+# - Bilgisayar yeniden başlatıldığında script otomatik başlar
+# - Hata durumunda auto-commit.log dosyasını kontrol edin
+# - Launch Agent dosyasındaki yolları kendi sisteminize göre düzenleyin
+# - Her yeni proje için yeni bir Launch Agent dosyası oluşturun
+# - Script çalışırken sistemi yormaz, minimum kaynak kullanır
+# - Commit mesajlarında tarih ve saat otomatik eklenir
+
+# --------- HATA DURUMUNDA ---------
+
+# 1. Log dosyasını kontrol et
+cat auto-commit.log
+
+# 2. Git durumunu kontrol et
+git status
+
+# 3. GitHub bağlantısını kontrol et
+gh auth status
+
+# 4. Scripti yeniden başlat
+pkill -f auto-commit.sh
+./auto-commit.sh &
+
+# 5. Launch Agent'ı yeniden yükle
+launchctl unload ~/Library/LaunchAgents/com.projeadi.autocommit.plist
+launchctl load ~/Library/LaunchAgents/com.projeadi.autocommit.plist 

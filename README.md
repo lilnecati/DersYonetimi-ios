@@ -11,11 +11,11 @@ Bu iOS uygulaması, öğrencilerin derslerini ve notlarını kolayca yönetebilm
   - Öğrenci bilgilerini düzenleme
   - Öğrenci listesi görüntüleme
 
-- **Ders Yönetimi**
+ **Ders Yönetimi**
   - Ders ekleme ve silme
   - Vize ve final notlarını kaydetme
   - Otomatik not ortalaması hesaplama
-  - Harf notu belirleme
+  - Harf notu belirleme-
 
 - **Not Hesaplama**
   - Dönem ortalaması hesaplama
